@@ -27,6 +27,11 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <ul>
+        <li>
+          <Link to="/blog/">Blog</Link>
+        </li>
+      </ul>
     </div>
   </header>
 )
