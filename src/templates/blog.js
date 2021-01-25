@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import { BLOCKS, MARKS, INLINES } from "@contentful/rich-text-types"
 import SEO from "../components/seo"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import blogStyles from "./blog.module.scss"
 
 const options = {
