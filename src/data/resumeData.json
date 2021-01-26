@@ -1,0 +1,114 @@
+{
+  "main": {
+    "name":"An Dinh",
+    "occupation":"iOS Developer",
+    "description":"Organized, collaborative, and highly skilled iOS developer with 5+ years of professional experience in dynamic and deadline-driven work environments. Eager to delight customers with magical experiences",
+    "image":"../src/images/profilepic.jpg",
+    "bio":"My expertise is about software development for Apple system. Main skill is mobile development with profiency programing languages are Swift and Objective C. I am also long life learner with passionate about new technology.",
+    "contactmessage":"If you think I would be good fit for your project, drop me a message!",
+    "email": "thanhan.uit@gmail.com",
+    "phone": "+81 80-7258-6041",
+    "address":{
+      "street":"Setagaya-ku",
+      "city":"Tokyo",
+      "state":"",
+      "zip": "156-0055"
+    },
+    "resumedownload":"./Resume-DinhThanhAn.pdf",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/an-dinh-584857106/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"skype",
+        "url":"skype://live:thanhan.uit?chat",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"With expertise about Apple developments, here are my skills",
+    "education":[
+      {
+        "school":"University of Information Technology",
+        "degree":"Networking and Telecomunication",
+        "graduated":"December 2015",
+        "description":"Gain foundation knowledge of computer science and network communication"
+      }
+    ],
+    "work":[
+      {
+        "company":"Allm Inc, Japan",
+        "title":"Senior iOS Developer",
+        "years":"April 2020 - Present",
+        "description":"I worked on iOS team for chat application of doctors, my main jobs are performing technical designs and implementation as well as propose new technique to improve application architecture and quality. Developed and launched application for 3 new countries with better quality and faster development."
+      },
+      {
+        "company":"Nanameue, Japan",
+        "title":"Senior iOS Developer",
+        "years":"April 2019 - April 2020",
+        "description":"I worked on iOS team for a Japan social network application, my main jobs are analyzing requirement, performing technical designs and implementation as well as tackle technology difficulty to achieve requirement goal. Developed and launched new application that were downloaded over 100K times and stay up rank number 2 within 1 week after publishing."
+      },
+      {
+        "company":"Elken, Malaysia",
+        "title":"iOS team leader",
+        "years":"April 2018 - April 2019",
+        "description":"I am a iOS team leader to work on a B2B application that help company members manage business, my main jobs are analyzing requirement, performing technical designs and implementation as well as guide other team members. Developed and launched application for thousand of users."
+      },
+      {
+        "company":"Elisoft, Vietnam",
+        "title":"iOS Developer",
+        "years":"March 2015 - April 2018",
+        "description":"I am a iOS developer worked on 20+ applications for company clients, my main jobs are performing technical designs and implementation. Developed and launched applications for thousand of users."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Swift",
+        "level":"90%"
+      },
+      {
+        "name":"Objective C",
+        "level":"70%"
+      },
+      {
+        "name":"iOS development",
+        "level":"80%"
+      },
+      {
+        "name":"Git",
+        "level":"60%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Yay!",
+        "category":"Japan social network application that I involved to develop",
+        "image":"../src/images/porfolio/yay-logo.jpg",
+        "url":"https://apps.apple.com/jp/app/yay-%E3%82%A4%E3%82%A7%E3%82%A4-%E5%90%8C%E4%B8%96%E4%BB%A3%E3%81%A7%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E9%80%9A%E8%A9%B1%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3/id1490387554"
+      },
+      {
+        "title":"iBS Elken",
+        "category":"B2B business management application",
+        "image":"ibs-logo.jpg",
+        "url":"https://apps.apple.com/my/app/ibs-elken/id1440708060"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
