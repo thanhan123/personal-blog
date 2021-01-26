@@ -5,6 +5,8 @@ import SEO from "../components/seo"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { Link, graphql } from "gatsby"
 import blogStyles from "./blog.module.scss"
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { pojoaque } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const options = {
   renderMark: {
@@ -25,6 +27,18 @@ const options = {
         return (
             <img src={url} alt={title}></img>
         )
+    },
+    [BLOCKS.EMBEDDED_ENTRY]: node => {
+      let code = node.data.target.fields.code["en-US"]
+      let pl = node.data.target.fields.programmingLanguage["en-US"]
+      return (
+        <SyntaxHighlighter
+          language={pl}
+          style={pojoaque}
+          showLineNumbers>
+          {code}
+        </SyntaxHighlighter>
+      )
     },
     [BLOCKS.QUOTE]: (node) => {
         const text = node.content[0].content[0].value
