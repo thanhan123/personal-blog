@@ -3,7 +3,9 @@ import PortfolioContainer from "./portfolio/PortfolioContainer"
 
 const Index = () => {
   return(
-    <PortfolioContainer />
+    <div className="App">
+      <PortfolioContainer />
+    </div>
   )
 }
 

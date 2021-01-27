@@ -18,7 +18,7 @@ import resumeData from './data/resumeData.json'
 
 const PortfolioContainer = () => {
   return (
-    <div className="App">
+    <div>
       <Header data={resumeData.main}/>
       <About data={resumeData.main}/>
       <Resume data={resumeData.resume}/>
