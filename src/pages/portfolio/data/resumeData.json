@@ -3,7 +3,7 @@
     "name":"An Dinh",
     "occupation":"iOS Developer",
     "description":"Organized, collaborative, and highly skilled iOS developer with 5+ years of professional experience in dynamic and deadline-driven work environments. Eager to delight customers with magical experiences",
-    "image":"../src/images/profilepic.jpg",
+    "image":"profilepic.jpg",
     "bio":"My expertise is about software development for Apple system. Main skill is mobile development with profiency programing languages are Swift and Objective C. I am also long life learner with passionate about new technology.",
     "contactmessage":"If you think I would be good fit for your project, drop me a message!",
     "email": "thanhan.uit@gmail.com",
@@ -14,7 +14,7 @@
       "state":"",
       "zip": "156-0055"
     },
-    "resumedownload":"./Resume-DinhThanhAn.pdf",
+    "resumedownload":"Resume-DinhThanhAn.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -88,7 +88,7 @@
       {
         "title":"Yay!",
         "category":"Japan social network application that I involved to develop",
-        "image":"../src/images/porfolio/yay-logo.jpg",
+        "image":"yay-logo.jpg",
         "url":"https://apps.apple.com/jp/app/yay-%E3%82%A4%E3%82%A7%E3%82%A4-%E5%90%8C%E4%B8%96%E4%BB%A3%E3%81%A7%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E9%80%9A%E8%A9%B1%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3/id1490387554"
       },
       {

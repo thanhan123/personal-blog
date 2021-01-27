@@ -7,6 +7,7 @@ import { Link, graphql } from "gatsby"
 import blogStyles from "./blog.module.scss"
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { obsidian } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import "../components/layout.css"
 
 export const query = graphql`
   query($slug: String!) {

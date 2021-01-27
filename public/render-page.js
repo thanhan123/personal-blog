@@ -140,13 +140,13 @@ var plugins = [{
     "background_color": "#663399",
     "theme_color": "#663399",
     "display": "minimal-ui",
-    "icon": "src/images/favicon.png",
+    "icon": "images/favicon.png",
     "legacy": true,
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "5aed6637d33e657835a0d2e49f064057"
+    "cacheDigest": null
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
@@ -32420,72 +32420,6 @@ SEO.propTypes = {
 
 /***/ }),
 
-/***/ "./src/css/default.css":
-/*!*****************************!*\
-  !*** ./src/css/default.css ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./src/css/fonts.css":
-/*!***************************!*\
-  !*** ./src/css/fonts.css ***!
-  \***************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./src/css/layout.css":
-/*!****************************!*\
-  !*** ./src/css/layout.css ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./src/css/magnific-popup.css":
-/*!************************************!*\
-  !*** ./src/css/magnific-popup.css ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./src/css/media-queries.css":
-/*!***********************************!*\
-  !*** ./src/css/media-queries.css ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./src/data/resumeData.json":
-/*!**********************************!*\
-  !*** ./src/data/resumeData.json ***!
-  \**********************************/
-/*! exports provided: main, resume, portfolio, testimonials, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"main\":{\"name\":\"An Dinh\",\"occupation\":\"iOS Developer\",\"description\":\"Organized, collaborative, and highly skilled iOS developer with 5+ years of professional experience in dynamic and deadline-driven work environments. Eager to delight customers with magical experiences\",\"image\":\"../src/images/profilepic.jpg\",\"bio\":\"My expertise is about software development for Apple system. Main skill is mobile development with profiency programing languages are Swift and Objective C. I am also long life learner with passionate about new technology.\",\"contactmessage\":\"If you think I would be good fit for your project, drop me a message!\",\"email\":\"thanhan.uit@gmail.com\",\"phone\":\"+81 80-7258-6041\",\"address\":{\"street\":\"Setagaya-ku\",\"city\":\"Tokyo\",\"state\":\"\",\"zip\":\"156-0055\"},\"resumedownload\":\"./Resume-DinhThanhAn.pdf\",\"social\":[{\"name\":\"linkedin\",\"url\":\"https://www.linkedin.com/in/an-dinh-584857106/\",\"className\":\"fa fa-linkedin\"},{\"name\":\"skype\",\"url\":\"skype://live:thanhan.uit?chat\",\"className\":\"fa fa-skype\"}]},\"resume\":{\"skillmessage\":\"With expertise about Apple developments, here are my skills\",\"education\":[{\"school\":\"University of Information Technology\",\"degree\":\"Networking and Telecomunication\",\"graduated\":\"December 2015\",\"description\":\"Gain foundation knowledge of computer science and network communication\"}],\"work\":[{\"company\":\"Allm Inc, Japan\",\"title\":\"Senior iOS Developer\",\"years\":\"April 2020 - Present\",\"description\":\"I worked on iOS team for chat application of doctors, my main jobs are performing technical designs and implementation as well as propose new technique to improve application architecture and quality. Developed and launched application for 3 new countries with better quality and faster development.\"},{\"company\":\"Nanameue, Japan\",\"title\":\"Senior iOS Developer\",\"years\":\"April 2019 - April 2020\",\"description\":\"I worked on iOS team for a Japan social network application, my main jobs are analyzing requirement, performing technical designs and implementation as well as tackle technology difficulty to achieve requirement goal. Developed and launched new application that were downloaded over 100K times and stay up rank number 2 within 1 week after publishing.\"},{\"company\":\"Elken, Malaysia\",\"title\":\"iOS team leader\",\"years\":\"April 2018 - April 2019\",\"description\":\"I am a iOS team leader to work on a B2B application that help company members manage business, my main jobs are analyzing requirement, performing technical designs and implementation as well as guide other team members. Developed and launched application for thousand of users.\"},{\"company\":\"Elisoft, Vietnam\",\"title\":\"iOS Developer\",\"years\":\"March 2015 - April 2018\",\"description\":\"I am a iOS developer worked on 20+ applications for company clients, my main jobs are performing technical designs and implementation. Developed and launched applications for thousand of users.\"}],\"skills\":[{\"name\":\"Swift\",\"level\":\"90%\"},{\"name\":\"Objective C\",\"level\":\"70%\"},{\"name\":\"iOS development\",\"level\":\"80%\"},{\"name\":\"Git\",\"level\":\"60%\"}]},\"portfolio\":{\"projects\":[{\"title\":\"Yay!\",\"category\":\"Japan social network application that I involved to develop\",\"image\":\"../src/images/porfolio/yay-logo.jpg\",\"url\":\"https://apps.apple.com/jp/app/yay-%E3%82%A4%E3%82%A7%E3%82%A4-%E5%90%8C%E4%B8%96%E4%BB%A3%E3%81%A7%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E9%80%9A%E8%A9%B1%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3/id1490387554\"},{\"title\":\"iBS Elken\",\"category\":\"B2B business management application\",\"image\":\"ibs-logo.jpg\",\"url\":\"https://apps.apple.com/my/app/ibs-elken/id1440708060\"}]},\"testimonials\":{\"testimonials\":[{\"text\":\"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.\",\"user\":\"Kareem Abdul Jabbar\"},{\"text\":\"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!\",\"user\":\"Steve Wozniak... impersonator\"}]}}");
-
-/***/ }),
-
 /***/ "./src/pages/404.js":
 /*!**************************!*\
   !*** ./src/pages/404.js ***!
@@ -32522,81 +32456,17 @@ var NotFoundPage = function NotFoundPage() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _css_default_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/default.css */ "./src/css/default.css");
-/* harmony import */ var _css_default_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_default_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _css_fonts_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../css/fonts.css */ "./src/css/fonts.css");
-/* harmony import */ var _css_fonts_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_fonts_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _css_layout_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../css/layout.css */ "./src/css/layout.css");
-/* harmony import */ var _css_layout_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_css_layout_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _css_magnific_popup_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/magnific-popup.css */ "./src/css/magnific-popup.css");
-/* harmony import */ var _css_magnific_popup_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_css_magnific_popup_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _css_media_queries_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../css/media-queries.css */ "./src/css/media-queries.css");
-/* harmony import */ var _css_media_queries_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_css_media_queries_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _pages_portfolio_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../pages/portfolio/Header */ "./src/pages/portfolio/Header.js");
-/* harmony import */ var _pages_portfolio_Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../pages/portfolio/Footer */ "./src/pages/portfolio/Footer.js");
-/* harmony import */ var _pages_portfolio_About__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../pages/portfolio/About */ "./src/pages/portfolio/About.js");
-/* harmony import */ var _pages_portfolio_Resume__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../pages/portfolio/Resume */ "./src/pages/portfolio/Resume.js");
-/* harmony import */ var _pages_portfolio_Contact__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../pages/portfolio/Contact */ "./src/pages/portfolio/Contact.js");
-/* harmony import */ var _pages_portfolio_Testimonials__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../pages/portfolio/Testimonials */ "./src/pages/portfolio/Testimonials.js");
-/* harmony import */ var _pages_portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../pages/portfolio/Portfolio */ "./src/pages/portfolio/Portfolio.js");
-/* harmony import */ var _data_resumeData_json__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../data/resumeData.json */ "./src/data/resumeData.json");
-var _data_resumeData_json__WEBPACK_IMPORTED_MODULE_14___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/resumeData.json */ "./src/data/resumeData.json", 1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _portfolio_PortfolioContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./portfolio/PortfolioContainer */ "./src/pages/portfolio/PortfolioContainer.js");
 
 
 
+var Index = function Index() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_portfolio_PortfolioContainer__WEBPACK_IMPORTED_MODULE_1__["default"], null);
+};
 
-
-
-
-
-
-
-
-
-
-
-
-
-var App = /*#__PURE__*/function (_Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(App, _Component);
-
-  function App(props) {
-    var _this;
-
-    _this = _Component.call(this, props) || this;
-    _this.state = {
-      resumeData: _data_resumeData_json__WEBPACK_IMPORTED_MODULE_14__
-    };
-    return _this;
-  }
-
-  var _proto = App.prototype;
-
-  _proto.render = function render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "App"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_pages_portfolio_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
-      data: this.state.resumeData.main
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_pages_portfolio_About__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      data: this.state.resumeData.main
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_pages_portfolio_Resume__WEBPACK_IMPORTED_MODULE_10__["default"], {
-      data: this.state.resumeData.resume
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_pages_portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_13__["default"], {
-      data: this.state.resumeData.portfolio
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_pages_portfolio_Contact__WEBPACK_IMPORTED_MODULE_11__["default"], {
-      data: this.state.resumeData.main
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_pages_portfolio_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], {
-      data: this.state.resumeData.main
-    }));
-  };
-
-  return App;
-}(react__WEBPACK_IMPORTED_MODULE_1__["Component"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (App);
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
@@ -32647,7 +32517,7 @@ var About = /*#__PURE__*/function (_Component) {
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
       className: "profile-pic",
       src: profilepic,
-      alt: "Tim Baker Profile Pic"
+      alt: "An Dinh Profile Pic"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "nine columns main-col"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, bio), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -33088,6 +32958,73 @@ var Portfolio = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
+/***/ "./src/pages/portfolio/PortfolioContainer.js":
+/*!***************************************************!*\
+  !*** ./src/pages/portfolio/PortfolioContainer.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_default_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/default.css */ "./src/pages/portfolio/css/default.css");
+/* harmony import */ var _css_default_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_default_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_fonts_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/fonts.css */ "./src/pages/portfolio/css/fonts.css");
+/* harmony import */ var _css_fonts_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_fonts_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _css_layout_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/layout.css */ "./src/pages/portfolio/css/layout.css");
+/* harmony import */ var _css_layout_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_layout_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _css_magnific_popup_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./css/magnific-popup.css */ "./src/pages/portfolio/css/magnific-popup.css");
+/* harmony import */ var _css_magnific_popup_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_css_magnific_popup_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _css_media_queries_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./css/media-queries.css */ "./src/pages/portfolio/css/media-queries.css");
+/* harmony import */ var _css_media_queries_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_css_media_queries_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Header */ "./src/pages/portfolio/Header.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Footer */ "./src/pages/portfolio/Footer.js");
+/* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./About */ "./src/pages/portfolio/About.js");
+/* harmony import */ var _Resume__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Resume */ "./src/pages/portfolio/Resume.js");
+/* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Contact */ "./src/pages/portfolio/Contact.js");
+/* harmony import */ var _Testimonials__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Testimonials */ "./src/pages/portfolio/Testimonials.js");
+/* harmony import */ var _Portfolio__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Portfolio */ "./src/pages/portfolio/Portfolio.js");
+/* harmony import */ var _data_resumeData_json__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./data/resumeData.json */ "./src/pages/portfolio/data/resumeData.json");
+var _data_resumeData_json__WEBPACK_IMPORTED_MODULE_13___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data/resumeData.json */ "./src/pages/portfolio/data/resumeData.json", 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var PortfolioContainer = function PortfolioContainer() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "App"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    data: _data_resumeData_json__WEBPACK_IMPORTED_MODULE_13__.main
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_About__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    data: _data_resumeData_json__WEBPACK_IMPORTED_MODULE_13__.main
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Resume__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    data: _data_resumeData_json__WEBPACK_IMPORTED_MODULE_13__.resume
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Portfolio__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    data: _data_resumeData_json__WEBPACK_IMPORTED_MODULE_13__.portfolio
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contact__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    data: _data_resumeData_json__WEBPACK_IMPORTED_MODULE_13__.main
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    data: _data_resumeData_json__WEBPACK_IMPORTED_MODULE_13__.main
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PortfolioContainer);
+
+/***/ }),
+
 /***/ "./src/pages/portfolio/Resume.js":
 /*!***************************************!*\
   !*** ./src/pages/portfolio/Resume.js ***!
@@ -33236,6 +33173,72 @@ var Testimonials = /*#__PURE__*/function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_1__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Testimonials);
+
+/***/ }),
+
+/***/ "./src/pages/portfolio/css/default.css":
+/*!*********************************************!*\
+  !*** ./src/pages/portfolio/css/default.css ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/pages/portfolio/css/fonts.css":
+/*!*******************************************!*\
+  !*** ./src/pages/portfolio/css/fonts.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/pages/portfolio/css/layout.css":
+/*!********************************************!*\
+  !*** ./src/pages/portfolio/css/layout.css ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/pages/portfolio/css/magnific-popup.css":
+/*!****************************************************!*\
+  !*** ./src/pages/portfolio/css/magnific-popup.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/pages/portfolio/css/media-queries.css":
+/*!***************************************************!*\
+  !*** ./src/pages/portfolio/css/media-queries.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./src/pages/portfolio/data/resumeData.json":
+/*!**************************************************!*\
+  !*** ./src/pages/portfolio/data/resumeData.json ***!
+  \**************************************************/
+/*! exports provided: main, resume, portfolio, testimonials, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"main\":{\"name\":\"An Dinh\",\"occupation\":\"iOS Developer\",\"description\":\"Organized, collaborative, and highly skilled iOS developer with 5+ years of professional experience in dynamic and deadline-driven work environments. Eager to delight customers with magical experiences\",\"image\":\"profilepic.jpg\",\"bio\":\"My expertise is about software development for Apple system. Main skill is mobile development with profiency programing languages are Swift and Objective C. I am also long life learner with passionate about new technology.\",\"contactmessage\":\"If you think I would be good fit for your project, drop me a message!\",\"email\":\"thanhan.uit@gmail.com\",\"phone\":\"+81 80-7258-6041\",\"address\":{\"street\":\"Setagaya-ku\",\"city\":\"Tokyo\",\"state\":\"\",\"zip\":\"156-0055\"},\"resumedownload\":\"Resume-DinhThanhAn.pdf\",\"social\":[{\"name\":\"linkedin\",\"url\":\"https://www.linkedin.com/in/an-dinh-584857106/\",\"className\":\"fa fa-linkedin\"},{\"name\":\"skype\",\"url\":\"skype://live:thanhan.uit?chat\",\"className\":\"fa fa-skype\"}]},\"resume\":{\"skillmessage\":\"With expertise about Apple developments, here are my skills\",\"education\":[{\"school\":\"University of Information Technology\",\"degree\":\"Networking and Telecomunication\",\"graduated\":\"December 2015\",\"description\":\"Gain foundation knowledge of computer science and network communication\"}],\"work\":[{\"company\":\"Allm Inc, Japan\",\"title\":\"Senior iOS Developer\",\"years\":\"April 2020 - Present\",\"description\":\"I worked on iOS team for chat application of doctors, my main jobs are performing technical designs and implementation as well as propose new technique to improve application architecture and quality. Developed and launched application for 3 new countries with better quality and faster development.\"},{\"company\":\"Nanameue, Japan\",\"title\":\"Senior iOS Developer\",\"years\":\"April 2019 - April 2020\",\"description\":\"I worked on iOS team for a Japan social network application, my main jobs are analyzing requirement, performing technical designs and implementation as well as tackle technology difficulty to achieve requirement goal. Developed and launched new application that were downloaded over 100K times and stay up rank number 2 within 1 week after publishing.\"},{\"company\":\"Elken, Malaysia\",\"title\":\"iOS team leader\",\"years\":\"April 2018 - April 2019\",\"description\":\"I am a iOS team leader to work on a B2B application that help company members manage business, my main jobs are analyzing requirement, performing technical designs and implementation as well as guide other team members. Developed and launched application for thousand of users.\"},{\"company\":\"Elisoft, Vietnam\",\"title\":\"iOS Developer\",\"years\":\"March 2015 - April 2018\",\"description\":\"I am a iOS developer worked on 20+ applications for company clients, my main jobs are performing technical designs and implementation. Developed and launched applications for thousand of users.\"}],\"skills\":[{\"name\":\"Swift\",\"level\":\"90%\"},{\"name\":\"Objective C\",\"level\":\"70%\"},{\"name\":\"iOS development\",\"level\":\"80%\"},{\"name\":\"Git\",\"level\":\"60%\"}]},\"portfolio\":{\"projects\":[{\"title\":\"Yay!\",\"category\":\"Japan social network application that I involved to develop\",\"image\":\"yay-logo.jpg\",\"url\":\"https://apps.apple.com/jp/app/yay-%E3%82%A4%E3%82%A7%E3%82%A4-%E5%90%8C%E4%B8%96%E4%BB%A3%E3%81%A7%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E9%80%9A%E8%A9%B1%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3/id1490387554\"},{\"title\":\"iBS Elken\",\"category\":\"B2B business management application\",\"image\":\"ibs-logo.jpg\",\"url\":\"https://apps.apple.com/my/app/ibs-elken/id1440708060\"}]},\"testimonials\":{\"testimonials\":[{\"text\":\"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.\",\"user\":\"Kareem Abdul Jabbar\"},{\"text\":\"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!\",\"user\":\"Steve Wozniak... impersonator\"}]}}");
 
 /***/ }),
 
