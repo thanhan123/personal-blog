@@ -3,19 +3,18 @@ import PropTypes from "prop-types"
 import React from "react"
 import headerStyles from "./header.module.scss"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header className={headerStyles.header}>
-    <h1 style={{margin: `1.3rem`}}>
-      <Link
-        to="/"
-        style={{
-          color: `white`,
-          textDecoration: `none`,
-        }}>
-        {siteTitle}
-      </Link>
-    </h1>
     <ul className={headerStyles.navList}>
+      <li>
+        <Link className={headerStyles.navItem} to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}>
+          Home
+        </Link>
+      </li>
       <li>
         <Link className={headerStyles.navItem} to="/blog/">Blog</Link>
       </li>

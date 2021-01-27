@@ -1,28 +1,21 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rebeccapurple;
+    all: initial;
+    background-color: #333333;
 }
 
 .nav-list {
     display: flex;
     list-style-type: none;
-    margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-item {
-    color: #ffffff;
-    font-size: .9rem;
+    font-size: 2rem;
     margin: 1.3rem;
     text-decoration: none;
 }
 
 .nav-item:hover {
     color: #666666;
-}
-
-.active-nav-item {
-    color: #333333;
 }

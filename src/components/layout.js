@@ -1,25 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
 import layoutStyles from './layout.module.scss'
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <div className={layoutStyles.container}>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header />
       <div className={layoutStyles.content}>
         <main>{children}</main>
       </div>
@@ -30,7 +20,7 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()}, Built by
           {` `}
-          <a href="http://andinhdevelopment.com" target="_blank" rel="noreferrer">An Dinh</a>
+          <Link to="/">An Dinh</Link>
         </footer>
     </div>
   )

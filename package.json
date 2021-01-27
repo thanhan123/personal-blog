@@ -7,6 +7,8 @@
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.2",
     "@contentful/rich-text-types": "^14.1.2",
+    "emailjs": "^3.4.0",
+    "emailjs-com": "^2.6.4",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.10.0",
     "gatsby-plugin-manifest": "^2.11.0",
@@ -20,6 +22,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-ga": "^3.3.0",
     "react-helmet": "^6.1.0",
     "react-syntax-highlighter": "^15.4.3",
     "sass": "^1.32.5"
