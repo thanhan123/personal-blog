@@ -1,9 +1,18 @@
 import { Link } from 'gatsby';
 import React, { Component } from 'react';
+import { Location } from '@reach/router';
+import PropTypes from 'prop-types';
 
 class Header extends Component {
+
+   static propTypes = {
+      location: PropTypes.object.isRequired
+    }
+    
   render() {
 
+   const { location } = this.props;
+   const currentHash = location.hash == "" ? "#home" : location.hash
     if(this.props.data){
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
@@ -23,12 +32,12 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+            <li className={currentHash === "#home" ? "current" : ""}><a href="#home">Home</a></li>
+            <li className={currentHash === "#about" ? "current" : ""}><a href="#about">About</a></li>
+	         <li className={currentHash === "#resume" ? "current" : ""}><a href="#resume">Resume</a></li>
+            <li className={currentHash === "#portfolio" ? "current" : ""}><a href="#portfolio">Works</a></li>
             {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            <li className={currentHash === "#contact" ? "current" : ""}><a href="#contact">Contact</a></li>
             <li><Link to="/blog">Blog</Link></li>
          </ul>
 
@@ -54,4 +63,8 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default props => (
+   <Location>
+     {locationProps => <Header {...locationProps} {...props} />}
+   </Location>
+ );

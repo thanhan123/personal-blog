@@ -15,10 +15,12 @@ import Testimonials from './Testimonials';
 import Portfolio from './Portfolio';
 
 import resumeData from './data/resumeData.json'
+import SEO from '../../components/seo';
 
 const PortfolioContainer = () => {
   return (
     <div>
+      <SEO title={"Home"}/>
       <Header data={resumeData.main}/>
       <About data={resumeData.main}/>
       <Resume data={resumeData.resume}/>
